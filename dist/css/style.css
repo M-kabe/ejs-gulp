@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -40,8 +41,7 @@ h1 {
  * 2. Show the overflow in Edge and IE.
  */
 hr {
-  -webkit-box-sizing: content-box;
-          box-sizing: content-box;
+  box-sizing: content-box;
   /* 1 */
   height: 0;
   /* 1 */
@@ -75,8 +75,7 @@ abbr[title] {
   /* 1 */
   text-decoration: underline;
   /* 2 */
-  -webkit-text-decoration: underline dotted;
-          text-decoration: underline dotted;
+  text-decoration: underline dotted;
   /* 2 */ }
 
 /**
@@ -208,8 +207,7 @@ fieldset {
  *    `fieldset` elements in all browsers.
  */
 legend {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   /* 1 */
   color: inherit;
   /* 2 */
@@ -240,8 +238,7 @@ textarea {
  */
 [type="checkbox"],
 [type="radio"] {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   /* 1 */
   padding: 0;
   /* 2 */ }
@@ -306,3 +303,60 @@ template {
  */
 [hidden] {
   display: none; }
+
+/* レイアウトルール */
+/* レイアウトルール */
+.l-container-12 {
+  width: 480px;
+  margin-left: -10px; }
+  .l-container-12:after {
+    content: "";
+    display: table;
+    clear: both; }
+
+.l-grid-01, .l-grid-02, .l-grid-03, .l-grid-04, .l-grid-05, .l-grid-06, .l-grid-07, .l-grid-08, .l-grid-09, .l-grid-10, .l-grid-11, .l-grid-12 {
+  float: left;
+  margin-left: 10px; }
+
+.l-grid-01 {
+  width: 30px; }
+
+.l-grid-02 {
+  width: 70px; }
+
+.l-grid-03 {
+  width: 110px; }
+
+.l-grid-04 {
+  width: 150px; }
+
+.l-grid-05 {
+  width: 190px; }
+
+.l-grid-06 {
+  width: 230px; }
+
+.l-grid-07 {
+  width: 270px; }
+
+.l-grid-08 {
+  width: 310px; }
+
+.l-grid-09 {
+  width: 350px; }
+
+.l-grid-10 {
+  width: 390px; }
+
+.l-grid-11 {
+  width: 430px; }
+
+.l-grid-12 {
+  width: 470px; }
+
+/* モジュールルール */
+.box {
+  padding: 20px 0;
+  background: #333;
+  color: #fff;
+  text-align: center; }
