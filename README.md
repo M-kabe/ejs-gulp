@@ -107,6 +107,9 @@
       - about
          - index.html
          
+## 確認ページ         
+   https://m-kabe.github.io/ejs-gulp/dist/
+         
 ## その他
 ブランチの運用ルールや、クラス名の命名規則なども決めないと…
        
